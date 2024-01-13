@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD</title>
+    <link rel="shortcut icon" href="water cross2.jpg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+        *{
+        font: 18px 'Fondamento', cursive;
+        
+        
+      }
+    
+        </style>
+    <style>
+        #logo{
+            border-radius: 50%;
+            margin: 20px;
+        }
+        #logo2{
+            border-radius: 50%;
+            margin: 20px;
+            float: right;
+        }
+        h1 {text-align: center; font-size: 32px;
+        
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #006cb9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkgray;
+}
+/* Add a white right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+#banner{
+    text-align: center;
+}
+/* .gradient-text {
+  background-image: linear-gradient(60deg, #006cb9, #fb5102);
+  background-clip: text;
+  color: transparent;
+}  */
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: red;
+}
+#form {
+    border: #1704aa;
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 30px 20px;
+    border: 10px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+#prayer1{
+    margin: 25px;
+    text-align: center;
+}
+#prayer2{
+    text-align: right;
+}
+#prayer3{
+    text-align: center;
+}
+
+    </style>
+
+</head>
+<body>
+    <header style="background-color: #006cb9; color: white; background-size: 100%;">
+
+        <img id="logo" src="cross1.JPG" alt="Logo1" width="100px" >
+        <a href="wind.html"><img id="logo2" src="cross1.JPG" alt="Logo1" width="100px" ></a>
+        
+
+        <h1>
+            AD
+        </h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">AD</a></li>
+            <li><a href="prayer.html">Prayer</a></li>
+            <li><a href="https://akdavis83.github.io/ADMin.github.io/">AD Ministries</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        
+        
+        <div id="prayer1">
+            <img id="w1" src="prayer1.JPG" alt="Prayer1" style="width: 35%;">
+        
+        </div>
+        <p style="color: red;">
+            Prayer is powerful! Prayer is a vehicle for the realm of the eternal and for the realm of the supernatural to impact the realm of the natural. Prayer is a way to bring intervention and help in the midst of a crisis. Every prayer written goes before the throne of God, is heard and will be answered. I stand in agreement for every prayer need, send in your prayers today!
+        </p>
+        <div id="form">
+            <form class="form-control">
+              
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Prayer brings change!" style="width: 1000px; height: 300px;"></textarea>
+            
+                <div id="myProgress">
+                  <div id="myBar"></div>
+                </div>
+                
+                <br>
+                <button onclick="move()">Pray!</button>
+            
+              </form>
+    
+        </div>
+        <hr>
+        <img src="prayer2.jpg" alt="Prayer2" style="width: 100px; height: 100px;">
+        <img src="faith.JPG" alt="Faith" style="width: 180px;">
+        <img src="prayer2.jpg" alt="Prayer2" style="width: 100px; height: 100px;">
+        <img src="faith.JPG" alt="Faith" style="width: 180px;">
+        <img src="prayer2.jpg" alt="Prayer2" style="width: 100px; height: 100px;">
+        <img src="faith.JPG" alt="Faith" style="width: 180px;">
+        <img src="prayer2.jpg" alt="Prayer2" style="width: 100px; height: 100px;">
+        <img src="faith.JPG" alt="Faith" style="width: 180px;">
+        <img src="prayer2.jpg" alt="Prayer2" style="width: 100px; height: 100px;">
+        <img src="faith.JPG" alt="Faith" style="width: 180px;">
+        <hr>
+        <div id="banner">
+            <a href="earth.html"><img src="banner1.JPG" alt="banner1" style="width: 50%" ></a>
+        </div>
+
+
+
+
+
+        
+    </main>
+
+    <a href="https://www.freecounterstat.com" title="hits counter"><img src="https://counter7.optistats.ovh/private/freecounterstat.php?c=tldz5gpumcu5qhdhs1mp3pk7lbl5wf7d" border="0" title="hits counter" alt="hits counter" style="width: 50%;"></a>
+    <footer style="background-color: #006cb9; color: white; text-align: center; background-size: 100%;">
+        <h3>
+            <i class="fa fa-copyright" aria-hidden="true">&copy Copyright 2024</i>
+        </h3>
+
+    </footer>
+    <script>
+        var i = 0;
+        function move() {
+          if (i == 0) {
+            i = 1;
+            var elem = document.getElementById("myBar");
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+              if (width >= 100) {
+                clearInterval(id);
+                i = 0;
+              } else {
+                width++;
+                elem.style.width = width + "%";
+              }
+            }
+          }
+        }
+        </script>
+
+</body>
+</html>
