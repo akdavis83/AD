@@ -108,6 +108,9 @@ li:last-child {
         <div id="wc">
             <img src="water cross.PNG" alt="Water Cross" style="height: 400px; width: 100%;">
         </div>
+
+        <div id="charging" class="fa"></div>
+        <label for="charging">Praying In Tongues Charges Your Spiritual Battery!!</label>
         
         <div class="water1">
             <img id="w1" src="living water2.JPG" alt="Living Water1" style="margin: 15px;" width="35%">
@@ -154,8 +157,30 @@ The woman at the well had nothing to draw water with, she looked and saw that Je
 
     </footer>
     <script>
-        let name = prompt("Welcome to my website, Please enter your Name:")
+        let name = prompt("Welcome, Please enter your Name:")
         console.log(name)
+        
+    </script>
+    <script>
+function chargebattery() {
+  var a;
+  a = document.getElementById("charging");
+  a.innerHTML = "&#xf244;";
+  setTimeout(function () {
+    a.innerHTML = "&#xf243;";
+  }, 1000);
+  setTimeout(function () {
+    a.innerHTML = "&#xf242;";
+  }, 2000);
+  setTimeout(function () {
+    a.innerHTML = "&#xf241;";
+  }, 3000);
+  setTimeout(function () {
+    a.innerHTML = "&#xf240;";
+  }, 4000);
+}
+chargebattery();
+setInterval(chargebattery, 5000);
     </script>
 
 </body>

@@ -135,7 +135,8 @@ li:last-child {
     </nav>
 
     <main>
-        
+        <div id="charging" class="fa" style= "color: #006cb9; font-size: xx-large;"></div>
+        <label for="charging" style="color: #006cb9; font-size: xx-large;">Praying In Tongues Charges Your Spiritual Battery!!</label>
         
         <div id="prayer1">
             <img id="w1" src="prayer1.JPG" alt="Prayer1" style="width: 35%;">
@@ -215,6 +216,28 @@ li:last-child {
           }
         }
         </script>
+        <script>
+            function chargebattery() {
+              var a;
+              a = document.getElementById("charging");
+              a.innerHTML = "&#xf244;";
+              setTimeout(function () {
+                a.innerHTML = "&#xf243;";
+              }, 1000);
+              setTimeout(function () {
+                a.innerHTML = "&#xf242;";
+              }, 2000);
+              setTimeout(function () {
+                a.innerHTML = "&#xf241;";
+              }, 3000);
+              setTimeout(function () {
+                a.innerHTML = "&#xf240;";
+              }, 4000);
+            }
+            chargebattery();
+            setInterval(chargebattery, 5000);
+                </script>
+            
 
 </body>
 </html>
